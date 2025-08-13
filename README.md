@@ -87,7 +87,7 @@ FLUSH PRIVILEGES;"
 
 # Download schema & import
 cd /tmp
-git clone -b local https://github.com/hkhcoder/vprofile-project.git
+git clone -b local https://github.com/Maazk111/Multi-Tier-Web-Application-Deployment-Manual-IaC-with-Vagrant.git
 mysql -u root -padmin123 accounts < vprofile-project/src/main/resources/db_backup.sql
 
 # Restart DB
